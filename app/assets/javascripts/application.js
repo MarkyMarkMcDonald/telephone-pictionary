@@ -11,7 +11,9 @@
 // about supported directives.
 //
 //= require jquery
+//= require ng-file-upload/angular-file-upload-shim
 //= require angular
+//= require ng-file-upload/angular-file-upload
 //= require angular-route
 //= require angular-rails-templates
 //= require_tree ../templates

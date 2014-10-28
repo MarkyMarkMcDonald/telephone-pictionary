@@ -17,6 +17,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 
 gem 'rspec-rails', '~> 2.14.0', group: :test
+gem 'capybara'
+gem 'capybara-webkit'
 gem 'spring', group: :development
 
 

@@ -1,1 +1,10 @@
-<h2></h2>
+<form ng-submit="submit()">
+  <label for="caption">Caption
+    <input ng-model="drawing.caption" type="text" id="caption"/>
+  </label>
+  <label for="drawing">Drawing
+    <input type="file" ng-file-select="drawing.file = $files[0]">
+  </label>
+
+  <input type="submit" value="Upload"/>
+</form>
